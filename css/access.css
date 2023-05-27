@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+.top-wrapper__txt span {
+  font-size: 25rem;
+  font-weight: 700;
+  color: #FFD700;
+  position: absolute;
+  content: "";
+  top: -12rem;
+  left: 4%;
+}
+
+.top-wrapper__txt p {
+  position: absolute;
+  content: "";
+  left: 26rem;
+  bottom: -4rem;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+.top-wrapper__txt h1 {
+  position: absolute;
+  content: "";
+  left: 22rem;
+  top: 4.5rem;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.access-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.access-wrapper__ttl {
+  margin-top: 4rem;
+  width: 55%;
+}
+
+.access-wrapper__info {
+  width: 100%;
+}
+
+.access-wrapper__info__ttl {
+  font-size: 2rem;
+  color: #006FB9;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.access-wrapper__info__ttl small {
+  font-size: 1rem;
+  margin-left: 2rem;
+  font-weight: normal;
+}
+
+.access-wrapper__info__list__item {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  border-bottom: dotted 2px #000;
+  padding: 1rem;
+}
+
+.access-wrapper__info__list__item h3 {
+  width: 15%;
+  font-weight: normal;
+  padding-right: 5rem; 
+}
+
+.access-wrapper__info__list__item {
+  text-align: left;
+}
+
+.access-wrapper__btn {
+  margin-top: 5%;
+  margin-right: 6%;
+}
+
+.access-wrapper__map {
+  position: relative;
+  text-align: center;
+  left: 40%;
+  width: 50%;
+  height: auto;
+}
+
+iframe {
+  margin: 5% 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .__pc {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .__pc {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .access-wrapper__info__ttl {
+    font-size: 2rem;
+    color: #006FB9;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .access-wrapper__info__ttl small {
+    font-size: 1rem;
+    margin-left: 2rem;
+    font-weight: normal;
+  }
+
+  .access-wrapper__info__list {
+    width: auto;
+  }
+
+  .access-wrapper__info__ttl {
+    font-size: 2rem;
+    color: #006FB9;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .access-wrapper__info__ttl small {
+    font-size: 1rem;
+    margin-left: 2rem;
+    font-weight: normal;
+    position: relative;
+    top: -3rem;
+    right: 15rem;
+  }
+
+  .access-wrapper__info__list__item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: dotted 2px #000;
+    padding: 1rem 0;
+  }
+
+  .access-wrapper__info__list__item h3 {
+    width: 20%;
+    font-weight: normal;
+    padding-right: 5rem;
+  }
+
+  .access-wrapper__btn {
+    margin-top: 5%;
+    margin-right: 8%;
+  }
+
+  .access-wrapper__map {
+    position: relative;
+    text-align: center;
+    left: 36%;
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: block;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .top-wrapper__txt p {
+    position: absolute;
+    content: "";
+    left: 24rem;
+    bottom: -4rem;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+  }
+
+  .top-wrapper__txt h1 {
+    position: absolute;
+    content: "";
+    left: 20rem;
+    top: 4.5rem;
+    font-size: 5rem;
+    font-weight: 600;
+  }
+
+  .access-wrapper {
+    display: block;
+  }
+
+  .access-wrapper__ttl {
+    margin-top: 4rem;
+    width: 30%;
+  }
+
+  .access-wrapper__info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .access-wrapper__info__list {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .access-wrapper__info__ttl {
+    font-size: 2rem;
+    color: #006FB9;
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: unset;
+    margin-left: unset;
+    text-align: left;
+  }
+
+  .access-wrapper__info__ttl small {
+    font-size: 1rem;
+    margin-left: 2rem;
+    font-weight: normal;
+  }
+
+  .access-wrapper__info__list__item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: dotted 2px #000;
+  }
+
+  .access-wrapper__info__list__item h3 {
+    width: 25%;
+    font-weight: normal;
+    padding-right: 2rem;
+  }
+
+  .access-wrapper__btn {
+    margin-top: 5%;
+    margin-right: 3%;
+  }
+
+  .access-wrapper__map {
+    position: unset;
+    text-align: center;
+    left: 10rem;
+    width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    margin: 5% 0;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+
+  .top-wrapper__txt {
+    color: #fff;
+    position: absolute;
+    content: "";
+    top: 70%;
+    left: 1%;
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .top-wrapper__txt p {
+    position: absolute;
+    content: "";
+    left: 8rem;
+    bottom: 0.5rem;
+    font-size: 0.7rem;
+    padding: 1rem 0;
+  }
+
+  .top-wrapper__txt small {
+    position: relative;
+    left: -40%;
+    top: 0.5rem;
+    display: block;
+    border-top: solid 2px #fff;
+    width: 30%;
+  }
+
+  .top-wrapper__txt span {
+    font-size: 9rem;
+    font-weight: 700;
+    color: #FFD700;
+    position: absolute;
+    content: "";
+    top: -5rem;
+    left: 0%;
+  }
+
+  .top-wrapper__txt h1 {
+    position: absolute;
+    content: "";
+    left: 6.5rem;
+    top: -1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .access-wrapper__ttl {
+    margin-top: 2rem;
+    width: auto;
+    display: inline;
+  }
+
+  .access-wrapper__info {
+    width: 100%;
+    margin-left: unset;
+    text-align: center;
+  }
+
+  .access-wrapper__info h3 {
+    text-align: right;
+  }
+
+  .access-wrapper__info__ttl {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .access-wrapper__info__ttl small {
+    font-size: 0.8rem;
+    margin-left: unset;
+    top: -2rem;
+    right: 9rem;
+  }
+  
+  .access-wrapper__info__list__item {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    border-bottom: dotted 2px #000;
+  }
+
+  .access-wrapper__info__list__item h3 {
+    width: 24%;
+    padding-right: 1rem;
+  }
+
+}

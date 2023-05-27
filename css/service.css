@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+.top-wrapper__txt {
+  color: #fff;
+  position: absolute;
+  content: "";
+  top: 70%;
+  left: 1%;
+  font-size: 5rem;
+  width: 100%;
+  line-height: 1;
+}
+
+.top-wrapper__txt p {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 18rem;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+.top-wrapper__txt small {
+  position: relative;
+  left: -50%;
+  top: 1.1rem;
+  display: block;
+  border-top: solid 4px #fff;
+  width: 40%;
+}
+
+.top-wrapper__txt h1 {
+  position: absolute;
+  content: "";
+  left: 14rem;
+  top: 4rem;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.service-wrapper__ttl {
+  margin-top: 4rem;
+}
+
+.service-wrapper__ttl .txt {
+  padding: 2.5rem 0;
+  width: 50%;
+}
+
+.service-wrapper__body__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-wrapper__body__list__item {
+  position: relative;
+  width: 48%;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px #000;
+  margin: 5% 0;
+}
+
+.service-wrapper__body__list__item__img {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+}
+
+.service-wrapper__body__list__item__img.__service {
+  background: url("../img/car1-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: -300px;
+}
+
+.service-wrapper__body__list__item__img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  top: 50%;
+  right: -92.5%;
+  transform: translate(-50%, -50%) rotate(13deg);
+}
+
+.service-wrapper__body__list__item.__service2 {
+  bottom: 16rem;
+}
+
+.service-wrapper__body__list__item.__service3 {
+  bottom: 2rem;
+}
+
+.service-wrapper__body__list__item.__service4 {
+  bottom: 18rem;
+}
+
+.service-wrapper__body__list__item__con {
+  width: 55%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-10%, -50%);
+  z-index: 1;
+}
+
+.service-wrapper__body__list__item__con img {
+  width: 15%;
+  margin-right: 1rem;
+}
+
+.service-wrapper__body__list__item__con__ttl {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.service-wrapper__body__list__item__con__des {
+  width: 100%;
+}
+
+.racing-event-wrapper__ttl {
+  margin-top: 4rem;
+}
+
+.racing-event-wrapper__ttl .txt {
+  padding: 2.5rem 0;
+  width: 50%;
+}
+
+.racing-event-wrapper__body__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.racing-event-wrapper__body__list__item {
+  position: relative;
+  width: 48%;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px #000;
+  margin: 5% 0;
+}
+
+.racing-event-wrapper__body__list__item__img {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+}
+
+.racing-event-wrapper__body__list__item__img.__service {
+  background: url("../img/car1-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: -300px;
+}
+
+.racing-event-wrapper__body__list__item__img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  top: 50%;
+  right: -92.5%;
+  transform: translate(-50%, -50%) rotate(13deg);
+}
+
+.racing-event-wrapper__body__list__item.__service2 {
+  bottom: 16rem;
+}
+
+.racing-event-wrapper__body__list__item.__service3 {
+  bottom: 2rem;
+}
+
+.racing-event-wrapper__body__list__item.__service4 {
+  bottom: 18rem;
+}
+
+.racing-event-wrapper__body__list__item__con {
+  width: 55%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-10%, -50%);
+  z-index: 1;
+}
+
+.racing-event-wrapper__body__list__item__con img {
+  width: 15%;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 1rem;
+}
+
+.racing-event-wrapper__body__list__item__con__ttl {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.racing-event-wrapper__body__list__item__con__des {
+  width: 100%;
+}
+
+.racing-event-wrapper__num {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.racing-event-wrapper__num a {
+  padding: 1.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .__pc {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .__pc {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .service-wrapper__body__list__item__img {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .service-wrapper__body__list__item__img.__service {
+    background: url("../img/car1-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: -300px;
+  }
+
+  .racing-event-wrapper__body__list__item__img {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .racing-event-wrapper__body__list__item__img.__service {
+    background: url("../img/car1-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: -300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: inline-block;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .service-wrapper__ttl {
+    margin-top: 4rem;
+  }
+
+  .service-wrapper__ttl .txt {
+    padding: 2.5rem 0;
+    width: 100%;
+  }
+
+  .service-wrapper__body__list {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .service-wrapper__body__list__item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px #000;
+    margin: 5% 0;
+  }
+
+  .service-wrapper__body__list__item__img {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+  }
+
+  .service-wrapper__body__list__item__img.__service {
+    background: url("../img/car1-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: -300px;
+  }
+
+  .service-wrapper__body__list__item.__service2 {
+    bottom: 0;
+  }
+
+  .service-wrapper__body__list__item.__service3 {
+    bottom: 0;
+  }
+
+  .service-wrapper__body__list__item.__service4 {
+    bottom: 0;
+  }
+
+  .racing-event-wrapper__ttl .txt {
+    padding: 2.5rem 0;
+    width: 100%;
+  }
+
+  .racing-event-wrapper__body__list {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .racing-event-wrapper__body__list__item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px #000;
+    margin: 5% 0;
+  }
+
+  .racing-event-wrapper__body__list__item__img {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+  }
+
+  .racing-event-wrapper__body__list__item.__service2 {
+    bottom: 0;
+  }
+
+  .racing-event-wrapper__body__list__item.__service3 {
+    bottom: 0;
+  }
+
+  .racing-event-wrapper__body__list__item.__service4 {
+    bottom: 0;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+
+  .top-wrapper__txt {
+    color: #fff;
+    position: absolute;
+    content: "";
+    top: 70%;
+    left: 1%;
+    font-size: 5rem;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .top-wrapper__txt p {
+    position: absolute;
+    content: "";
+    top: -1.5rem;
+    left: 7rem;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+  }
+
+  .top-wrapper__txt small {
+    position: relative;
+    left: -50%;
+    top: 0.5rem;
+    display: block;
+    border-top: solid 2px #fff;
+    width: 40%;
+  }
+
+  .top-wrapper__txt h1 {
+    position: absolute;
+    content: "";
+    top: 1rem;
+    left: 5rem;
+    font-size: 1.5rem;
+  }
+
+  .service-wrapper__ttl {
+    margin-top: 2rem;
+  }
+
+  .service-wrapper__body__list__item__img {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .service-wrapper__body__list__item__con img {
+    width: 15%;
+    margin-right: 0rem;
+    margin-left: 1rem;
+  }
+
+  .service-wrapper__body__list__item__con__ttl {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .service-wrapper__body__list__item__con__des {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .racing-event-wrapper__ttl .txt {
+    padding: 2.5rem 0;
+    width: 100%;
+  }
+
+  .racing-event-wrapper__body__list__item__img {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .racing-event-wrapper__body__list__item__con__ttl {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+
+  .racing-event-wrapper__body__list__item__con__ttl img {
+    margin-bottom: 0.5rem;
+  }
+
+  .racing-event-wrapper__body__list__item__con__des {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+
+}

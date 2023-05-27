@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+.top-wrapper__txt {
+  color: #fff;
+  position: absolute;
+  content: "";
+  top: 70%;
+  left: 1%;
+  font-size: 5rem;
+  width: 100%;
+  line-height: 1;
+}
+
+.top-wrapper__txt p {
+  position: absolute;
+  content: "";
+  top: -4rem;
+  left: 21rem;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+.top-wrapper__txt small {
+  position: relative;
+  left: -50%;
+  top: 1.1rem;
+  display: block;
+  border-top: solid 4px #fff;
+  width: 40%;
+}
+
+.top-wrapper__txt h1 {
+  position: absolute;
+  content: "";
+  left: 17rem;
+  top: 0rem;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.message-wrapper {
+  display: flex;
+}
+
+.message-wrapper__ttl {
+  width: 50%;
+  margin-top: 4rem;
+}
+
+.message-wrapper__ttl .ttl {
+  padding-right: 4rem; 
+}
+
+.message-wrapper__con {
+  text-align: center;
+  width: 90%;
+  margin-top: 4rem;
+}
+
+.message-wrapper__con__txt {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.message-wrapper__con__txt h2 {
+  color: #006FB9;
+  text-align: left;
+  font-size: 1.7rem;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.message-wrapper__con__txt p {
+  text-align: left;
+  padding: 1rem 0;
+}
+
+.outline-wrapper {
+  display: flex;
+}
+
+.outline-wrapper__ttl {
+  width: 50%;
+  margin-top: 4rem;
+}
+
+.outline-wrapper__con {
+  width: 100%;
+  height: 30rem;
+  margin: 3rem 0;
+}
+
+.outline-wrapper__con__list {
+  height: auto;
+}
+
+.outline-wrapper__con__list__item {
+  font-size: 1.2rem;
+  display: flex;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+  margin: 1.5rem;
+  align-items: center;
+}
+
+.outline-wrapper__con__list__item p {
+  width: 20%;
+  color: #006FB9;
+}
+
+.outline-wrapper__con__list__item h3 {
+  font-weight: normal;
+  margin-left: 20%;
+}
+
+@media screen and (min-width: 1024px) {
+  .__pc {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .__pc {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: inline-block;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .top-wrapper__txt {
+    color: #fff;
+    position: absolute;
+    content: "";
+    top: 70%;
+    left: 1%;
+    font-size: 5rem;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .top-wrapper__txt p {
+    position: absolute;
+    content: "";
+    top: -4rem;
+    left: 19rem;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+  }
+
+  .top-wrapper__txt small {
+    position: relative;
+    left: -50%;
+    top: 1.1rem;
+    display: block;
+    border-top: solid 4px #fff;
+    width: 40%;
+  }
+
+  .top-wrapper__txt h1 {
+    position: absolute;
+    content: "";
+    left: 15rem;
+    top: 0rem;
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  .message-wrapper {
+    display: inline;
+  }
+
+  .message-wrapper__ttl {
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+
+  .message-wrapper__ttl .ttl {
+    padding-right: 4rem;
+  }
+
+  .message-wrapper__con {
+    text-align: center;
+    width: 100vw;
+    margin-top: 4rem;
+  }
+
+  .message-wrapper__con__txt {
+    text-align: center;
+    margin: 0 auto;
+    width: 80vw;
+  }
+
+  .message-wrapper__con__txt h2 {
+    color: #006FB9;
+    text-align: center;
+    font-size: 1.7rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .message-wrapper__con__txt p {
+    text-align: left;
+    padding: 1rem 0;
+  }
+
+  .outline-wrapper {
+    display: inline;
+    width: 80vw;
+  }
+
+  .outline-wrapper__ttl {
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+
+  .outline-wrapper__con {
+    width: 100%;
+    height: 33rem;
+    margin: 3rem 0 0 0;
+  }
+
+  .outline-wrapper__con__list {
+    width: 100%;
+    height: 50vh;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .outline-wrapper__con__list__item {
+    font-size: 1.2rem;
+    display: flex;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+    margin: 1.5rem;
+    align-items: center;
+  }
+
+  .outline-wrapper__con__list__item p {
+    width: 15%;
+    color: #333;
+  }
+
+  .outline-wrapper__con__list__item h3 {
+    font-weight: normal;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+
+  .top-wrapper__txt {
+    color: #fff;
+    position: absolute;
+    content: "";
+    top: 65%;
+    left: 1%;
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .top-wrapper__txt p {
+    position: absolute;
+    content: "";
+    top: -2.5rem;
+    left: 8rem;
+    font-size: 0.7rem;
+    padding: 1rem 0;
+  }
+
+  .top-wrapper__txt small {
+    position: relative;
+    left: -50%;
+    top: 0.5rem;
+    display: block;
+    border-top: solid 2px #fff;
+    width: 40%;
+  }
+
+  .top-wrapper__txt h1 {
+    position: absolute;
+    content: "";
+    left: 6rem;
+    top: 0rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .message-wrapper__ttl {
+    width: auto;
+    margin-top: 4rem;
+  }
+
+  .message-wrapper__ttl .ttl {
+    padding-right: 4rem;
+  }
+
+  .message-wrapper__con {
+    text-align: center;
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .message-wrapper__con__txt h2 {
+    color: #006FB9;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .outline-wrapper {
+    display: inline;
+    width: 80vw;
+  }
+
+  .outline-wrapper__ttl {
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+
+  .outline-wrapper__con {
+    width: 100%;
+    height: 30rem;
+    margin: 3rem 0 0 0;
+  }
+
+  .outline-wrapper__con__list {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .outline-wrapper__con__list__item {
+    font-size: 1rem;
+    display: flex;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+    margin: 1.5rem;
+    align-items: center;
+  }
+
+  .outline-wrapper__con__list__item p {
+    width: 25%;
+    color: #000;
+  }
+
+  .outline-wrapper__con__list__item h3 {
+    font-weight: normal;
+    margin-left: 1.5rem;
+    text-align: left;
+  }
+
+}

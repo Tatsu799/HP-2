@@ -1,0 +1,496 @@
+@charset "UTF-8";
+
+.contact-wrapper {
+  display: flex;
+}
+
+.contact-wrapper__ttl {
+  width: 30%;
+  margin-top: 4rem;
+}
+
+.contact-wrapper__con {
+  width: 100%;
+  margin-left: 18%;
+  margin-bottom: 2rem;
+}
+
+.contact-wrapper__con__top {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+} 
+
+
+.contact-wrapper__con__top p {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.contact-wrapper__con__tel {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-top: solid 2px #0CA2E6;
+  border-bottom: solid 2px #0CA2E6;
+  margin-bottom: 4rem;
+}
+
+.contact-wrapper__con__tel h3 {
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-right: 15%;
+  font-weight: 700;
+}
+
+.contact-wrapper__con__tel p {
+  font-size: 2rem;
+}
+
+.contact-wrapper__con__tel img {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  top: 0.2rem;
+  right: 0.5rem;
+}
+
+.contact-wrapper__form {
+  width: 100%;
+  margin: 5% auto;
+}
+
+.contact-wrapper__form__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 7.5%;
+}
+
+.contact-wrapper__form__box__select,
+.contact-wrapper__form__box__input,
+.contact-wrapper__form__box__area {
+  height: 4.25rem;
+  width: 70%;
+  padding-left: 5px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.contact-wrapper__form__box__select {
+  width: 72.5%;
+  height: 4rem;
+  background-color: #D9D9D9;
+}
+
+.contact-wrapper__form__box__area {
+  height: 15rem;
+  padding: 12.5px 5px;
+}
+
+.contact-wrapper__form__box__ttl {
+  width: 40%;
+  height: 100%;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.contact-wrapper__form__box__ttl::after {
+  content: "必須";
+  position: absolute;
+  right: 15%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #c72930;
+  border: solid 1px #c72930;
+  padding: 0 0.3rem;
+}
+
+.access-wrapper__btn {
+  margin: 2rem 0;
+}
+
+.btn {
+  width: 35%;
+}
+
+@media screen and (min-width: 1024px) {
+  .__pc {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .__pc {
+    display: inline-block;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .top-wrapper__txt {
+    color: #fff;
+    position: absolute;
+    content: "";
+    top: 70%;
+    left: 1%;
+    font-size: 5rem;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .top-wrapper__txt p {
+    position: absolute;
+    content: "";
+    left: 21rem;
+    top: 0.5rem;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+  }
+
+  .top-wrapper__txt small {
+    position: relative;
+    left: -50%;
+    top: 1.1rem;
+    display: block;
+    border-top: solid 4px #fff;
+    width: 40%;
+  }
+
+  .top-wrapper__txt span {
+    font-size: 25rem;
+    font-weight: 700;
+    color: #FFD700;
+    position: absolute;
+    content: "";
+    top: -12rem;
+    left: 0%;
+  }
+
+  .top-wrapper__txt h1 {
+    position: absolute;
+    content: "";
+    left: 17rem;
+    top: 4rem;
+    font-size: 5rem;
+    font-weight: 600;
+  }
+
+  .contact-wrapper__ttl {
+    width: 35%;
+    margin-top: 4rem;
+  }
+
+  .contact-wrapper__con {
+    width: 100%;
+    margin: 5% 0 0 5% ;
+    margin-bottom: 2rem;
+  }
+
+  .contact-wrapper__con__top {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .contact-wrapper__form__box__ttl {
+    width: 40%;
+    height: 100%;
+    font-size: 1.2rem;
+    position: relative;
+  }
+
+  .contact-wrapper__form__box__ttl::after {
+    content: "必須";
+    position: absolute;
+    right: 3.5%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #c72930;
+    border: solid 1px #c72930;
+    padding: 0 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: inline-block;
+  }
+
+  .__sp {
+    display: none;
+  }
+
+  .top-wrapper__txt span {
+    font-size: 22rem;
+    font-weight: 700;
+    color: #FFD700;
+    position: absolute;
+    content: "";
+    top: -10rem;
+    left: 3%;
+  }
+
+  .contact-wrapper {
+    display: block;
+  }
+
+  .contact-wrapper__ttl {
+    width: auto;
+    margin-top: 4rem;
+  }
+
+  .contact-wrapper__con {
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: unset;
+    display: block;
+    height: 77rem;
+  }
+
+  .contact-wrapper__con__top {
+    width: auto;
+    margin-left: unset;
+  }
+
+  .contact-wrapper__con__tel {
+    display: block;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-top: solid 2px #0CA2E6;
+    border-bottom: solid 2px #0CA2E6;
+    margin-bottom: 4rem;
+  }
+
+  .contact-wrapper__con__tel h3 {
+    font-size: 1.5rem;
+    margin-left: unset;
+    margin-right: unset;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .contact-wrapper__con__tel p {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .contact-wrapper__con__tel img {
+    width: 5%;
+    height: 10%;
+    position: relative;
+    top: 0.2rem;
+    right: 0.5rem;
+  }
+
+  .contact-wrapper__form {
+    width: 100%;
+    margin: unset;
+  }
+
+  .contact-wrapper__form__box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 7.5%;
+  }
+
+  .contact-wrapper__form__box__ttl {
+    width: auto;
+    height: 100%;
+    font-size: 1.2rem;
+    position: relative;
+    display: block;
+  }
+
+  .contact-wrapper__form__box__ttl::after {
+    display: inline-block;
+    content: "必須";
+    position: absolute;
+    right: 60%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #c72930;
+    border: solid 1px #c72930;
+    padding: 0 0.8rem;
+  }
+
+  .contact-wrapper__form__box__select,
+  .contact-wrapper__form__box__input,
+  .contact-wrapper__form__box__area {
+    height: 4.25rem;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #000;
+  }
+
+  .contact-wrapper__form__box__area {
+    height: 20vh;
+    padding: 12.5px 5px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+
+  main {
+    position: relative;
+    height: 101rem;
+  }
+
+  main::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 111, 185, 0.5);
+    width: 30%;
+    top: 0;
+    left: 0;
+    right: 30%;
+    bottom: 0;
+    z-index: -10;
+  }
+
+  .top-wrapper__img {
+    width: 100vw;
+    height: auto;
+    position: relative;
+  }
+
+  .top-wrapper__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .top-wrapper__img::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 92%;
+    z-index: 0;
+  }
+
+  .top-wrapper__txt {
+    color: #fff;
+    position: absolute;
+    content: "";
+    top: 70%;
+    left: 1%;
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .top-wrapper__txt p {
+    position: absolute;
+    content: "";
+    top: -1.5rem;
+    left: 8rem;
+    bottom: 0rem;
+    font-size: 0.7rem;
+    padding: 1rem 0;
+  }
+
+  .top-wrapper__txt small {
+    position: relative;
+    left: -40%;
+    top: 0.3rem;
+    display: block;
+    border-top: solid 2px #fff;
+    width: 30%;
+  }
+
+  .top-wrapper__txt span {
+    font-size: 9rem;
+    font-weight: 700;
+    color: #FFD700;
+    position: absolute;
+    content: "";
+    top: -5rem;
+    left: 0.5rem;
+  }
+
+  .top-wrapper__txt h1 {
+    position: absolute;
+    content: "";
+    left: 6.5rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .contact-wrapper__ttl {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .contact-wrapper__con__top {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-wrapper__form__box__ttl::after {
+    display: inline-block;
+    content: "必須";
+    position: absolute;
+    right: 30%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #c72930;
+    border: solid 1px #c72930;
+    padding: 0 0.8rem;
+  }
+
+  .contact-wrapper__con {
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: unset;
+    display: block;
+  }
+
+  .access-wrapper__btn {
+    margin: 2rem 0;
+  }
+
+  .btn {
+    width: 50%;
+  }
+  
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Racing Corporation</title>
+  <meta name="description" content="国産、外国産のレーシングカー制作、チューニングなどに強みをもつプロショップ。レースイベントなどさまざまなイベントを開催しております。">
+  <meta name="keywords" content="車、チューニング、レーシングカー、レースイベント">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="https://racing-corporation.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Racing Corporation">
+  <meta property="og:description" content="国産、外国産のレーシングカー制作、チューニングなどに強みをもつプロショップ。レースイベントなどさまざまなイベントを開催しております。">
+  <meta property="og:site_name" content="Racing Corporation">
+  <meta property="og:image" content="https://racing-corporation.com/img/logo.png">
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180×180" href="img/logo.png">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/common1.css">
+  <link rel="stylesheet" type="text/css" href="../css/common2.css">
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  <!-- GoogleFont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <!-- fontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body>
+  <main>
+    <header class="header" id="header">
+      <div class="header-wrapper">
+        <a href="../index.html" class="header-wrapper__logo">
+          <img src="../img/logo.png" alt="ロゴ画像">
+        </a>
+        <nav class="header-wrapper__nav">
+          <ul class="header-wrapper__nav__list">
+            <li class="header-wrapper__nav__list__item">
+              <a href="about.html">会社概要</a>
+            </li>
+            <li class="header-wrapper__nav__list__item">
+              <a href="service.html">サービス</a>
+            </li>
+            <li class="header-wrapper__nav__list__item">
+              <a href="news.html">ニュース</a>
+            </li>
+            <li class="header-wrapper__nav__list__item">
+              <a href="access.html">アクセス</a>
+            </li>
+            <li class="header-wrapper__nav__list__item">
+              <a href="/contact.html" class="color">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="drawer"></div>
+    </header>
+    <section class="top" id="top">
+      <div class="top-wrapper">
+        <div class="top-wrapper__img">
+          <img src="../img/access_img.jpg" alt="トップ画像">
+          <div class="top-wrapper__txt">
+            <p><small></small>コンタクト</p>
+            <span>C</span>
+            <h1>ONTACT</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-wrapper inner">
+        <div class="contact-wrapper__ttl">
+          <h2 class="ttl">
+            <p>お問合せ</p>
+            <small></small>CONTACT
+          </h2>
+        </div>
+        <div class="contact-wrapper__con">
+          <div class="contact-wrapper__con__top">
+            <p>
+              チューニングのご相談やお見積もりは、お電話または下記お問合せフォームよりご連絡ください。<br>
+              また、レースのエントリやイベントの詳細についてもお気軽にお問合せください。
+            </p>
+          </div>
+          <div class="contact-wrapper__con__tel">
+            <h3>電話でのお問合せ</h3>
+            <p><img src="../img/tell_ico.png" alt="電話の画像">123-4567-8999</p>
+          </div>
+          <form action="../mail.php" id="form" method="POST" class="contact-wrapper__form">
+            <div class="contact-wrapper__form__box">
+              <label for="name" class="contact-wrapper__form__box__ttl">お問い合わせ</label>
+              <select name="お問合せ項目" required="required" class="contact-wrapper__form__box__select">
+                <optgroup value>お問合せ内容を選択
+                  <option value="プルダウンメニューで問い合わせ内容を選択" hidden class="contact-wrapper__form__box__select__with">お問合せ内容を選択</option>
+                  <option value="チューニングのお見積りやご相談" class="contact-wrapper__form__box__select__with">チューニングのお見積りやご相談</option>
+                  <option value="レース開催の予定確認、参加受付について" class="contact-wrapper__form__box__select__with">レース開催の予定確認、参加受付について</option>
+                  <option value="その他のお問い合わせ"  class="contact-wrapper__form__box__select__with">その他のお問い合わせ</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="contact-wrapper__form__box">
+              <label for="name" class="contact-wrapper__form__box__ttl">お名前</label>
+              <input type="text" class="contact-wrapper__form__box__input" name="お名前" required="required" placeholder="お名前をご入力ください。">
+            </div>
+            <div class="contact-wrapper__form__box">
+              <label for="email" class="contact-wrapper__form__box__ttl">メールアドレス</label>
+              <input type="email" class="contact-wrapper__form__box__input" name="メールアドレス" required="required"
+                placeholder="例）example@example.com">
+            </div>
+            <div class="contact-wrapper__form__box __area">
+              <label for="message" class="contact-wrapper__form__box__ttl">お問い合わせ内容</label>
+              <textarea id="message" class="contact-wrapper__form__box__area" name="お問い合わせ内容" required="required"
+                placeholder="お問い合わせ内容をご入力ください"></textarea>
+            </div>
+          </form>
+          <div class="access-wrapper__btn">
+            <div class="btn">
+              <a href="../html/contact.html">送信する</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="footer-wrapper">
+      <div class="footer-wrapper__img">
+        <a href="../index.html">
+          <img src="../img/logo.png">
+        </a>
+      </div>
+      <nav class="footer-wrapper__nav">
+        <ul class="footer-wrapper__nav__list">
+          <li class="footer-wrapper__nav__list__item">
+            <a href="about.html">会社概要</a>
+          </li>
+          <li class="footer-wrapper__nav__list__item">
+            <a href="service.html">サービス</a>
+          </li>
+          <li class="footer-wrapper__nav__list__item">
+            <a href="news.html">ニュース</a>
+          </li>
+          <li class="footer-wrapper__nav__list__item">
+            <a href="access.html">アクセス</a>
+          </li>
+          <li class="footer-wrapper__nav__list__item">
+            <a href="contact.html">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer-wrapper__sns__icon">
+        <a href="#"><img src="../img/twitter-ico.png" alt="ツイッターアイコン"></a>
+        <a href="#"><img src="../img/facebook-ico.png" alt="フェイスブックアイコン"></a>
+      </div>
+      <small>©Racing Corporation. All Right Reserved.</small>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
+</body>
+</html>
