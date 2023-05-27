@@ -191,7 +191,6 @@
 
 .racing-event-wrapper__body__list__item__con img {
   width: 15%;
-  margin-right: 0.5rem;
   position: relative;
   top: 1rem;
 }
@@ -245,7 +244,7 @@
 
   .service-wrapper__body__list__item__img {
     position: relative;
-    width: 100%;
+    width: auto;
     height: 30rem;
   }
 
@@ -257,7 +256,7 @@
 
   .racing-event-wrapper__body__list__item__img {
     position: relative;
-    width: 100%;
+    width: auto;
     height: 30rem;
   }
 
@@ -423,10 +422,14 @@
     margin-top: 2rem;
   }
 
+  .service-wrapper__body__list__item {
+    margin-bottom: 3rem;
+  }
+
   .service-wrapper__body__list__item__img {
     position: relative;
     width: 100%;
-    height: 45vh;
+    height: 60vh;
   }
 
   .service-wrapper__body__list__item__con img {
@@ -443,7 +446,7 @@
 
   .service-wrapper__body__list__item__con__des {
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .racing-event-wrapper__ttl .txt {
@@ -451,10 +454,15 @@
     width: 100%;
   }
 
+
+  .racing-event-wrapper__body__list__item {
+    margin-bottom: 3rem;
+  }
+
   .racing-event-wrapper__body__list__item__img {
     position: relative;
     width: 100%;
-    height: 45vh;
+    height: 60vh;
   }
 
   .racing-event-wrapper__body__list__item__con__ttl {
@@ -470,7 +478,7 @@
 
   .racing-event-wrapper__body__list__item__con__des {
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   
 

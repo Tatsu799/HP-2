@@ -24,7 +24,7 @@
 .top-wrapper__img::after {
   position: absolute;
   content: "";
-  width: 75%;
+  width: 100%;
   height: 112%;
   top: 0;
   right: -8%;
@@ -257,8 +257,7 @@
   }
 
   .top-wrapper__img {
-    /* width: 92.6%; */
-    width: 95vw;
+    width: 93vw;
     height: 43rem;
     position: relative;
   }
@@ -385,7 +384,7 @@
   .contact-wrapper__img {
     position: relative;
     width: 100%;
-    height: 32rem;
+    height: 36rem;
     top: -25rem;
     object-fit: cover;
     z-index: -5;
@@ -548,7 +547,7 @@
   .contact-wrapper {
     display: block;
     z-index: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 0;
   }
 
   .contact-wrapper__ttl {
@@ -559,12 +558,7 @@
   }
 
   .contact-wrapper__img {
-    position: relative;
-    width: 100%;
-    height: 32rem;
     top: -25rem;
-    object-fit: cover;
-    z-index: -5;
   }
 
   .contact-wrapper__img::before {
@@ -577,10 +571,33 @@
     bottom: 0;
   }
 
+  .contact-wrapper__ttl {
+    width: auto;
+  }
+
+  .contact-wrapper__ttl .txt {
+    text-align: left;
+  }
+
 }
 
+@media screen and (max-width: 320px) {
+  .__pc {
+    display: none;
+  }
 
+  .__tab {
+    display: none;
+  }
 
+  .__sp {
+    display: inline-block;
+  }
+
+  .contact-wrapper__img {
+    top: -28rem;
+  }
+}
 
 
 

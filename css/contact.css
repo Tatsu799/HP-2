@@ -42,7 +42,7 @@
   font-weight: 700;
 }
 
-.contact-wrapper__con__tel p {
+.contact-wrapper__con__tel a {
   font-size: 2rem;
 }
 
@@ -112,7 +112,8 @@
 }
 
 .btn {
-  width: 35%;
+  width: 15rem;
+  height: auto;
 }
 
 @media screen and (min-width: 1024px) {
@@ -292,7 +293,8 @@
     font-weight: 700;
   }
 
-  .contact-wrapper__con__tel p {
+  .contact-wrapper__con__tel a {
+    display: block;
     font-size: 2rem;
     text-align: center;
   }
@@ -369,16 +371,12 @@
     display: inline-block;
   }
 
-  main {
-    position: relative;
-    height: 101rem;
-  }
-
   main::before {
     position: absolute;
     content: "";
     background-color: rgba(0, 111, 185, 0.5);
     width: 30%;
+    height: 98rem;
     top: 0;
     left: 0;
     right: 30%;
@@ -483,6 +481,59 @@
     margin: 0 auto;
     margin-bottom: unset;
     display: block;
+    height: 67rem;
+  }
+
+  .contact-wrapper__con__tel h3 {
+    font-size: 1.3rem;
+    margin-left: unset;
+    margin-right: unset;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .contact-wrapper__con__tel a {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .contact-wrapper__form {
+    width: 100%;
+    margin: unset;
+  }
+
+  .contact-wrapper__form__box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 7.5%;
+  }
+
+  .contact-wrapper__form__box__ttl {
+    font-size: 1rem;
+    padding: 0.5rem
+  }
+
+  .contact-wrapper__form__box__ttl::after {
+    right: 28%;
+  }
+
+  .contact-wrapper__form__box__select,
+  .contact-wrapper__form__box__input,
+  .contact-wrapper__form__box__area {
+    height: 2.5rem;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #000;
+  }
+
+  .contact-wrapper__form__box__area {
+    height: 20vh;
+    padding: 12.5px 5px;
   }
 
   .access-wrapper__btn {

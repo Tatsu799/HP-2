@@ -37,7 +37,8 @@ li {
 }
 
 .header-wrapper__nav {
-  width: 78%;
+  width: 78vw;
+  height: 8vh;
 }
 
 .header-wrapper__nav__list {
@@ -56,7 +57,7 @@ li {
   text-align: center;
   padding: 0 2.5%;
   border-right: solid 2px #333;
-  font-weight: 800;
+  font-weight: normal;
   font-size: 1.1rem;
 }
 
@@ -99,7 +100,8 @@ header .drawer {
 
 .btn {
   background-color: rgb(0, 111, 185);
-  width: 12rem;
+  width: 10rem;
+  height: auto;
   margin: 0 auto;
   text-align: center;
   line-height: 4;
@@ -141,7 +143,7 @@ header .drawer {
   text-align: center;
   padding: 0 2.5%;
   border-right: solid 2px #333;
-  font-weight: 800;
+  font-weight: normal;
   font-size: 1.1rem;
 }
 
@@ -280,7 +282,7 @@ header .drawer {
     display: block;
     width: 50%;
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
   }
@@ -306,7 +308,8 @@ header .drawer {
   }
 
   .header-wrapper__logo {
-    width: 25%;
+    width: 30%;
+    height: 5vh;
   }
 
   .ttl small {
@@ -335,7 +338,8 @@ header .drawer {
   }
 
   .header-wrapper__logo {
-    width: 40%;
+    width: 30%;
+    height: 5vh;
   }
 
   .ttl {
@@ -377,8 +381,8 @@ header .drawer {
     text-align: center;
     padding: 0 2.5%;
     border-right: solid 2px #333;
-    font-weight: 800;
-    font-size: 0.7rem;
+    font-weight: normal;
+    font-size: 0.5rem;
   }
 
   .footer-wrapper__nav__list__item:last-of-type {
@@ -402,6 +406,37 @@ header .drawer {
 
   .footer-wrapper small {
     font-size: 0.8rem;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .__pc {
+    display: none;
+  }
+
+  .__tab {
+    display: none;
+  }
+
+  .__sp {
+    display: inline-block;
+  }
+  
+  .header-wrapper__logo {
+    width: 30%;
+    height: 7vh;
+  }
+
+  header .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border-top: solid 4px #333;
+    cursor: pointer;
+    z-index: 100;
   }
 
 }
