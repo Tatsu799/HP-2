@@ -294,11 +294,23 @@ iframe {
     display: inline-block;
   }
 
+
+  header .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 0.8%;
+    right: 20px;
+    border-top: solid 4px #333;
+    cursor: pointer;
+    z-index: 100;
+  }
+
   .top-wrapper__txt {
     color: #fff;
     position: absolute;
     content: "";
-    top: 70%;
+    top: 80%;
     left: 1%;
     font-size: 2rem;
     width: 100%;

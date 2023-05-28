@@ -289,7 +289,7 @@
     content: "";
     background-color: rgba(0, 111, 185, 0.5);
     width: 30%;
-    height: 190vh;
+    height: 100%;
     top: 5%;
     left: 0;
     right: 30%;
@@ -297,11 +297,22 @@
     z-index: -100;
   }
 
+  header .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 0.9%;
+    right: 20px;
+    border-top: solid 4px #333;
+    cursor: pointer;
+    z-index: 100;
+  }
+
   .top-wrapper__txt {
     color: #fff;
     position: absolute;
     content: "";
-    top: 65%;
+    top: 80%;
     left: 1%;
     font-size: 2rem;
     width: 100%;
@@ -337,7 +348,7 @@
 
   .message-wrapper__ttl {
     width: auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .message-wrapper__ttl .ttl {
@@ -416,7 +427,7 @@
 
   main::before {
     width: 30%;
-    height: 290vh;
+    height: 100%;
     top: 5%;
     left: 0;
     right: 30%;

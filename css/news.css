@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+.top-wrapper__txt {
+  color: #fff;
+  position: absolute;
+  content: "";
+  top: 65%;
+  left: 1%;
+  font-size: 5rem;
+  width: 100%;
+  line-height: 1;
+}
+
 .top-wrapper__txt p {
   position: absolute;
   content: "";
@@ -343,6 +354,17 @@
 
   .__sp {
     display: inline-block;
+  }
+
+  header .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 0.3%;
+    right: 20px;
+    border-top: solid 4px #333;
+    cursor: pointer;
+    z-index: 100;
   }
 
 

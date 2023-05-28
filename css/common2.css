@@ -16,9 +16,13 @@ main::before {
   z-index: -100;
 }
 
+.top-wrapper {
+  overflow: hidden;
+}
+
 .top-wrapper__img {
   width: 100%;
-  height: 50rem;
+  height: 40rem;
   position: relative;
 }
 
@@ -77,6 +81,7 @@ main::before {
 }
 
 .top-wrapper__txt h1 {
+  display: inline;
   position: absolute;
   content: "";
   left: 17rem;
@@ -125,12 +130,6 @@ main::before {
 
   .__sp {
     display: none;
-  }
-
-  .top-wrapper__img {
-    width: 100vw;
-    height: 60vh;
-    position: relative;
   }
 
   .top-wrapper__img img {
@@ -210,10 +209,15 @@ main::before {
     display: inline-block;
   }
 
-  .top-wrapper__img {
-    width: 100vw;
-    height: auto;
-    position: relative;
+  header .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 1.3%;
+    right: 20px;
+    border-top: solid 4px #333;
+    cursor: pointer;
+    z-index: 100;
   }
 
   .top-wrapper__img img {
@@ -227,7 +231,7 @@ main::before {
     content: "";
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
-    height: 96%;
+    height: 100%;
     z-index: 0;
   }
 
