@@ -19,6 +19,9 @@
   <link rel="stylesheet" type="text/css" href="../css/common1.css">
   <link rel="stylesheet" type="text/css" href="../css/common2.css">
   <link rel="stylesheet" type="text/css" href="../css/service.css">
+  <!-- jquery -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
   <!-- GoogleFont -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,7 +63,7 @@
       <div class="top-wrapper">
         <div class="top-wrapper__img">
           <img src="../img/service-img.jpg" alt="トップ画像">
-          <div class="top-wrapper__txt">
+          <div class="top-wrapper__txt fadeUpTrigger">
             <p><small></small>事業内容</p>
             <span>S</span>
             <h1>ERVICE</h1>
@@ -70,7 +73,7 @@
     </section>
     <section class="service" id="service">
       <div class="service-wrapper inner">
-        <div class="service-wrapper__ttl">
+        <div class="service-wrapper__ttl fadeRightTrigger">
           <h2 class="ttl">
             <p>サービス</p>
             <small></small>Service
@@ -81,7 +84,7 @@
         </div>
         <div class="service-wrapper__body">
           <ul class="service-wrapper__body__list">
-            <li class="service-wrapper__body__list__item __service1">
+            <li class="service-wrapper__body__list__item __service1 fadeRightTrigger">
               <div class="service-wrapper__body__list__item__img __service">
                 <div class="service-wrapper__body__list__item__con">
                   <p class="service-wrapper__body__list__item__con__ttl"><img src="../img/tools_img.png" alt="ツールのアイコン">チューニング</p>
@@ -91,7 +94,7 @@
                 </div>
               </div>
             </li>
-            <li class="service-wrapper__body__list__item __service2">
+            <li class="service-wrapper__body__list__item __service2 fadeLeftTrigger">
               <div class="service-wrapper__body__list__item__img __service">
                 <div class="service-wrapper__body__list__item__con">
                   <p class="service-wrapper__body__list__item__con__ttl"><img src="../img/tools_img.png" alt="ツールのアイコン">チューニング</p>
@@ -101,7 +104,7 @@
                 </div>
               </div>
             </li>
-            <li class="service-wrapper__body__list__item __service3">
+            <li class="service-wrapper__body__list__item __service3 fadeRightTrigger">
               <div class="service-wrapper__body__list__item__img __service">
                 <div class="service-wrapper__body__list__item__con">
                   <p class="service-wrapper__body__list__item__con__ttl"><img src="../img/tools_img.png" alt="ツールのアイコン">チューニング</p>
@@ -111,7 +114,7 @@
                 </div>
               </div>
             </li>
-            <li class="service-wrapper__body__list__item __service4">
+            <li class="service-wrapper__body__list__item __service4 fadeLeftTrigger">
               <div class="service-wrapper__body__list__item__img __service">
                 <div class="service-wrapper__body__list__item__con">
                   <p class="service-wrapper__body__list__item__con__ttl"><img src="../img/tools_img.png" alt="ツールのアイコン">チューニング</p>
@@ -127,7 +130,7 @@
     </section>
     <section class="racing-event" id="racing-event">
       <div class="racing-event-wrapper inner">
-        <div class="racing-event-wrapper__ttl">
+        <div class="racing-event-wrapper__ttl fadeRightTrigger">
           <h2 class="ttl">
             <p>レース開催</p>
             <small></small>Racing-event
@@ -139,7 +142,7 @@
         </div>
         <div class="racing-event-wrapper__body">
           <ul class="racing-event-wrapper__body__list">
-            <li class="racing-event-wrapper__body__list__item __service1">
+            <li class="racing-event-wrapper__body__list__item __service1 fadeRightTrigger">
               <div class="racing-event-wrapper__body__list__item__img __service">
                 <div class="racing-event-wrapper__body__list__item__con">
                   <p class="racing-event-wrapper__body__list__item__con__ttl"><img src="../img/car_ico.png" alt="車のアイコン">レース開催
@@ -151,7 +154,7 @@
                 </div>
               </div>
             </li>
-            <li class="racing-event-wrapper__body__list__item __service2">
+            <li class="racing-event-wrapper__body__list__item __service2 fadeLeftTrigger">
               <div class="racing-event-wrapper__body__list__item__img __service">
                 <div class="racing-event-wrapper__body__list__item__con">
                   <p class="racing-event-wrapper__body__list__item__con__ttl"><img src="../img/car_ico.png" alt="車のアイコン">レース開催
@@ -163,7 +166,7 @@
                 </div>
               </div>
             </li>
-            <li class="racing-event-wrapper__body__list__item __service3">
+            <li class="racing-event-wrapper__body__list__item __service3 fadeRightTrigger">
               <div class="racing-event-wrapper__body__list__item__img __service">
                 <div class="racing-event-wrapper__body__list__item__con">
                   <p class="racing-event-wrapper__body__list__item__con__ttl"><img src="../img/car_ico.png" alt="車のアイコン">レース開催
@@ -175,7 +178,7 @@
                 </div>
               </div>
             </li>
-            <li class="racing-event-wrapper__body__list__item __service4">
+            <li class="racing-event-wrapper__body__list__item __service4 fadeLeftTrigger">
               <div class="racing-event-wrapper__body__list__item__img __service">
                 <div class="racing-event-wrapper__body__list__item__con">
                   <p class="racing-event-wrapper__body__list__item__con__ttl"><img src="../img/car_ico.png" alt="車のアイコン">レース開催
@@ -231,7 +234,8 @@
       <small>©Racing Corporation. All Right Reserved.</small>
     </div>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script type="text/javascript" src="../js/common.js"></script>
 </body>
 </html>

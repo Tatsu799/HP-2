@@ -20,6 +20,9 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/common1.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
+  <!-- jquery -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
   <!-- GoogleFont -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,6 +32,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
 <body>
+  <div class="spinner-box">
+    <div class="pulse-container">
+      <div class="pulse-bubble pulse-bubble-1"></div>
+      <div class="pulse-bubble pulse-bubble-2"></div>
+      <div class="pulse-bubble pulse-bubble-3"></div>
+    </div>
+  </div>
   <header class="header" id="header">
     <div class="header-wrapper">
       <a href="index.html" class="header-wrapper__logo">
@@ -60,8 +70,12 @@
     <section class="top" id="top">
       <div class="top-wrapper">
         <div class="top-wrapper__img">
-          <img src="img/top-img.jpg" alt="トップ画像">
-          <div class="top-wrapper__txt">
+          <div class="slider">
+            <img class="img1" src="img/top-img.jpg" alt="トップ画像">
+            <img class="img2" src="img/about_img.jpg" alt="トップ画像">
+            <img class="img3" src="img/service-img.jpg" alt="トップ画像">
+          </div>
+          <div class="top-wrapper__txt fadeUpTrigger">
             <p>Have a passion for racing</p>
             <h1><span>B</span>a&nbsp;Driver</h1>
           </div>
@@ -70,13 +84,13 @@
     </section>
     <section class="news" id="news">
       <div class="news-wrapper inner">
-        <div class="news-wrapper__ttl">
+        <div class="news-wrapper__ttl fadeRightTrigger">
           <h2 class="ttl">
             <p>ニュース</p>
             <small></small>NEWS
           </h2>
         </div>
-        <div class="news-wrapper__event">
+        <div class="news-wrapper__event fadeLeftTrigger">
           <div class="news-wrapper__event__list">
             <div class="news-wrapper__event__list__item">
               <span>2023.03.10</span>
@@ -105,14 +119,14 @@
     </section>
     <section class="service" id="service">
       <div class="service-wrapper inner">
-        <div class="service-wrapper__ttl">
+        <div class="service-wrapper__ttl fadeRightTrigger">
           <h2 class="ttl">
             <p>サービス</p>
             <small></small>SERVICE
           </h2>
         </div>
         <div class="service-wrapper__body">
-          <div class="service-wrapper__body__con">
+          <div class="service-wrapper__body__con fadeRightTrigger">
             <img src="img/car1-bg.jpg">
             <div class="service-wrapper__body__con__ttl">
               <h3>チューニング</h3>
@@ -121,7 +135,7 @@
               </p>
             </div>
           </div>
-          <div class="service-wrapper__body__con">
+          <div class="service-wrapper__body__con fadeLeftTrigger">
             <img src="img/car1-bg.jpg">
             <div class="service-wrapper__body__con__ttl">
               <h3>チューニング</h3>
@@ -131,7 +145,7 @@
             </div>
           </div>
         </div>
-        <div class="service-wrapper__btn">
+        <div class="service-wrapper__btn fadeUpTrigger">
           <div class="btn">
             <a href="html/service.html">VIEW ALL</a>
           </div>
@@ -140,13 +154,13 @@
     </section>
     <section class="about" id="about">
       <div class="about-wrapper inner">
-        <div class="about-wrapper__ttl">
+        <div class="about-wrapper__ttl fadeRightTrigger">
           <h2 class="ttl">
             <p>会社概要</p>
             <small></small>ABOUT
           </h2>
         </div>
-        <ul class="about-wrapper__list">
+        <ul class="about-wrapper__list fadeRightTrigger">
           <li  class="about-wrapper__list__item">
             <a href="html/about.html"><p>会社概要</p></a>
           </li>
@@ -162,7 +176,7 @@
     <section class="contact" id="contact">
       <div class="contact__box"></div>
       <div class="contact-wrapper">
-        <div class="contact-wrapper__ttl">
+        <div class="contact-wrapper__ttl fadeRightTrigger">
           <h2 class="ttl">
             <p>お問い合わせ</p>
             <small></small>CONTACT
@@ -176,7 +190,7 @@
             </div>
           </div>
         </div>
-        <div class="contact-wrapper__img">
+        <div class="contact-wrapper__img fadeLeftTrigger">
           <img src="img/contact.jpg">
         </div>
       </div>
@@ -215,7 +229,8 @@
       <small>©Racing Corporation. All Right Reserved.</small>
     </div>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script type="text/javascript" src="js/common.js"></script>
 </body>
 </html>

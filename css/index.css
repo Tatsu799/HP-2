@@ -32,12 +32,29 @@
   z-index: -1;
 }
 
+/* スライドショー */
+.slider img {
+  width: 92.5%;
+  height: 43rem;
+  position: relative;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 98.9%;
+  z-index: 1;
+}
+
 .top-wrapper__txt {
   color: #fff;
   position: absolute;
   content: "";
   top: 17%;
   width: 100%;
+  z-index: 2;
 }
 
 .top-wrapper__txt p {
@@ -262,6 +279,12 @@
     position: relative;
   }
 
+  /* スライダー */
+  .slider img {
+    width: 93vw;
+    height: 43rem;
+  }
+
   .top-wrapper__txt p {
     position: absolute;
     content: "";
@@ -424,6 +447,12 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  /* スライダー */
+  .slider img {
+    width: 93vw;
+    height: 30rem;
   }
 
   .top-wrapper__img::before {
@@ -590,7 +619,116 @@
   }
 }
 
+/* loadAnimation */
+.spinner-box {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
 
+.pulse-container {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pulse-bubble {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #006FB9;
+}
+
+.pulse-bubble-1 {
+  animation: pulse .4s ease 0s infinite alternate;
+}
+
+.pulse-bubble-2 {
+  animation: pulse .4s ease .2s infinite alternate;
+}
+
+.pulse-bubble-3 {
+  animation: pulse .4s ease .4s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: .25;
+    transform: scale(.50);
+  }
+}
+
+.fadeUp {
+  animation: fadeUpAnime 0.8s forwards;
+  opacity: 0;
+}
+
+.fadeLeft {
+  animation: fadeLeftAnime 0.8s forwards;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.fadeRight {
+  animation: fadeRightAnime 0.8s forwards;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.fadeUpTrigger,
+.fadeLeftTrigger,
+.fadeRightTrigger {
+  opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeftAnime {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRightAnime {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
 
 
